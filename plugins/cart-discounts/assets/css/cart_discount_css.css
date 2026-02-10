@@ -1,0 +1,102 @@
+.button-primary.woocommerce-save-button {
+        display:  none;
+    }
+
+  .woocommerce-save-button {
+        display: none !important;
+  }  
+
+  #fem_cdw_codition_amount_min {
+        width: 200px;
+  } 
+  #fem_cdw_codition_amount_max {
+        width: 200px;
+  }
+  #fem_cdw_rule_date_from {
+    width: 400px;
+  }
+
+  #fem_cdw_rule_date_to { 
+    width: 400px;
+  }
+
+  .start_up_image_display {
+    height: 50px;
+    width: 50px;
+  }
+
+  #fme_remove_image_button {
+    cursor: pointer;
+  
+  }
+
+  .fme_start_up_image_display {
+    height: 50px;
+    width: 50px;
+  }
+
+/*---------------------------------------------------------------*/
+.cmn-toggle {
+  position: absolute;
+    margin-left: -9999px;
+    visibility: hidden;
+}
+
+.cmn-toggle + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+input.cmn-toggle-round + label {
+    padding: 2px;
+    width: 40px;
+    height: 20px;
+    background-color: #dddddd;
+    border-radius: 20px;
+}
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+    display: block;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    bottom: 1px;
+    content: "";
+}
+
+input.cmn-toggle-round + label:before {
+    right: 1px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    transition: background 0.4s;
+}
+
+input.cmn-toggle-round + label:after {
+    width: 20px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: margin 0.4s;
+}
+
+input.cmn-toggle-round:checked + label:before {
+    background-color: #5bc0de;
+}
+
+input.cmn-toggle-round:checked + label:after {
+    margin-left: 20px;
+}
+/*---------------------------------------------------------------*/
+
+ @media screen and (max-width:640px){
+.wrap{
+overflow-x: scroll;
+
+}
+}
+
+
